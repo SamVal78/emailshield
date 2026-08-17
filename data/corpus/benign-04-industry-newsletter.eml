@@ -1,0 +1,30 @@
+Subject: Freight Weekly: capacity outlook for Q1
+From: "Freight Weekly" <news@freightweekly.example>
+To: dana.okafor@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <benign-04-industry-newsletter@synthetic.invalid>
+Reply-To: no-reply@freightweekly.example
+Return-Path: bounce-1182@mailer.example
+Authentication-Results: mx1.northgate.co.uk; spf=pass
+ smtp.mailfrom=mailer.example; dkim=pass header.d=freightweekly.example;
+ dmarc=pass header.from=freightweekly.example
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2932158413345825410=="
+
+--===============2932158413345825410==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This week: capacity outlook, fuel duty consultation, port delays.
+Read online: https://freightweekly.example/2024/03
+
+--===============2932158413345825410==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>This week: capacity outlook.</p><p><a href=3D'https://freightw=
+eekly.example/2024/03'>Read online</a></p></body></html>
+
+--===============2932158413345825410==--

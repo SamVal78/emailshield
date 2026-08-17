@@ -1,0 +1,14 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM"]
+ignore = [
+    # Long lines inside explanatory comments and evidence strings are deliberate:
+    # the text is meant to be read by an analyst, not wrapped for a linter.
+    "E501",
+]
+
+[lint.per-file-ignores]
+"tests/*" = ["E402"]
+"tools/*" = ["E402"]

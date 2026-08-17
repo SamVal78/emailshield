@@ -1,0 +1,16 @@
+Subject: RE: Invoice 88214 - updated remittance account
+From: "Calder Freight Accounts" <accounts@calderfreight.example>
+To: finance@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <hard-05-compromised-supplier@synthetic.invalid>
+Return-Path: accounts@calderfreight.example
+Authentication-Results: mx1.northgate.co.uk; spf=pass
+ smtp.mailfrom=calderfreight.example; dkim=pass
+ header.d=calderfreight.example; dmarc=pass header.from=calderfreight.example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Further to invoice 88214, our bank account has changed. Please update the rem=
+ittance details to the new account below and process payment today. Kindly ke=
+ep this confidential until our announcement.

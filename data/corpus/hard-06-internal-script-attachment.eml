@@ -1,0 +1,27 @@
+Subject: Rollout script for the depot terminals
+From: "Marcus Bell" <marcus.bell@northgate.co.uk>
+To: it-team@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <hard-06-internal-script-attachment@synthetic.invalid>
+Authentication-Results: mx1.northgate.co.uk; spf=pass
+ smtp.mailfrom=northgate.co.uk; dkim=pass header.d=northgate.co.uk; dmarc=pass
+ header.from=northgate.co.uk
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7472776144001182490=="
+
+--===============7472776144001182490==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Here's the rollout script we discussed. Run it on the test terminal first.
+
+--===============7472776144001182490==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="deploy-terminals.ps1"
+MIME-Version: 1.0
+
+IyBzeW50aGV0aWMgcGxhY2Vob2xkZXIsIG5vIGNvbW1hbmRzCldyaXRlLU91dHB1dCAncGxhY2Vo
+b2xkZXInCg==
+
+--===============7472776144001182490==--

@@ -1,0 +1,38 @@
+{
+  "_comment": [
+    "Deployment configuration for the fictional Northgate Logistics.",
+    "None of these lists have universal defaults. protected_domains decides what",
+    "lookalike detection compares against, and trusted_authserv_ids decides which",
+    "Authentication-Results header is believed. Both are the difference between a",
+    "working detection and a decorative one, so they are configuration rather than",
+    "code.",
+    "known_senders and allowlisted_domains are synthetic stand-ins for real sender",
+    "history. They prove the code path works and nothing more.",
+    "trusted_mail_hosts are matched against the 'by' clause of Received headers to find where our estate ends. Below that boundary the chain is whatever the sender chose to write."
+  ],
+  "protected_domains": [
+    "northgate.co.uk",
+    "northgate-freight.com"
+  ],
+  "trusted_authserv_ids": [
+    "mx1.northgate.co.uk",
+    "mx2.northgate.co.uk"
+  ],
+  "allowlisted_domains": [
+    "calderfreight.example",
+    "freightweekly.example"
+  ],
+  "known_senders": {
+    "marcus.bell@northgate.co.uk": 412,
+    "facilities@northgate.co.uk": 63,
+    "accounts@calderfreight.example": 88,
+    "news@freightweekly.example": 51,
+    "events@meridianevents.example": 24,
+    "elena.marsh@calderfreight.example": 31,
+    "no-reply@northgate.co.uk": 140
+  },
+  "trusted_mail_hosts": [
+    "mx1.northgate.co.uk",
+    "mx2.northgate.co.uk"
+  ]
+}

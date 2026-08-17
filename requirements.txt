@@ -1,0 +1,4 @@
+# The analysis code uses the Python standard library only.
+# These are test and lint tooling.
+pytest>=8.0
+ruff>=0.5

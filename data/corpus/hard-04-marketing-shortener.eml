@@ -1,0 +1,31 @@
+Subject: Last chance: warehouse automation webinar tomorrow
+From: "Meridian Events" <events@meridianevents.example>
+To: dana.okafor@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <hard-04-marketing-shortener@synthetic.invalid>
+Reply-To: replies@meridian-mailer.example
+Return-Path: bounce@meridian-mailer.example
+Authentication-Results: mx1.northgate.co.uk; spf=pass
+ smtp.mailfrom=meridian-mailer.example; dkim=pass
+ header.d=meridianevents.example; dmarc=pass
+ header.from=meridianevents.example
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7729441052054417502=="
+
+--===============7729441052054417502==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Final reminder: our webinar starts tomorrow at 14:00. Register immediately to=
+ secure a place: https://bit.ly/mrdn-web
+
+--===============7729441052054417502==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Final reminder, register immediately.</p><p><a href=3D'https:/=
+/bit.ly/mrdn-web'>meridianevents.example/register</a></p></body></html>
+
+--===============7729441052054417502==--

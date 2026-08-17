@@ -1,0 +1,26 @@
+Subject: Remittance statement attached
+From: "Accounts" <accounts@invoices-portal.example>
+To: finance@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <phish-03-bidi-attachment@synthetic.invalid>
+Authentication-Results: mx1.northgate.co.uk; spf=softfail
+ smtp.mailfrom=invoices-portal.example; dkim=none; dmarc=fail
+ header.from=invoices-portal.example
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5923646674988030970=="
+
+--===============5923646674988030970==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please find the remittance statement attached.
+
+--===============5923646674988030970==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename*=utf-8''statement%E2%80%AEfdp.exe
+MIME-Version: 1.0
+
+TVqQkJCQkJBTWU5USEVUSUMtUExBQ0VIT0xERVItTk9ULUEtUkVBTC1FWEVDVVRBQkxF
+
+--===============5923646674988030970==--

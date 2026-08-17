@@ -1,0 +1,29 @@
+Subject: Invoice 0041 - Harrowgate Pallets (new supplier)
+From: "Harrowgate Pallets" <accounts@harrowgatepallets.example>
+To: finance@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <hard-03-first-contact-invoice@synthetic.invalid>
+Return-Path: accounts@harrowgatepallets.example
+Authentication-Results: mx1.northgate.co.uk; spf=pass
+ smtp.mailfrom=harrowgatepallets.example; dkim=pass
+ header.d=harrowgatepallets.example; dmarc=pass
+ header.from=harrowgatepallets.example
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5283994698777017743=="
+
+--===============5283994698777017743==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please find our first invoice attached, 0041, payment outstanding on receipt.=
+ Our bank details are on the invoice.
+
+--===============5283994698777017743==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice-0041.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJSBzeW50aGV0aWMgcGxhY2Vob2xkZXIsIG5vdCBhIHJlYWwgUERGCjAwNDE=
+
+--===============5283994698777017743==--

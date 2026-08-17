@@ -1,0 +1,86 @@
+{
+  "benign-01-internal-notice.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "internal, fully aligned authentication, no links"
+  },
+  "benign-02-known-supplier-invoice.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "allowlisted supplier, aligned auth, PDF matches its bytes"
+  },
+  "benign-03-meeting-request.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "internal colleague, established sender"
+  },
+  "benign-04-industry-newsletter.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "bulk sender: Return-Path and Reply-To both differ from From, which is normal for mailing platforms and must not alone raise the action"
+  },
+  "hard-01-forwarded-spf-break.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "SPF fails because a mailing list rewrote the envelope, but DKIM still aligns. The single most important false positive to get right."
+  },
+  "hard-02-genuine-mfa-reset.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "textbook phishing language used entirely legitimately by the real IdP. Tests whether ES-SOC-005 alone can push a message to quarantine."
+  },
+  "hard-03-first-contact-invoice.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "first contact plus payment language plus an attachment, all legitimate. Tests that context signals do not accumulate into a quarantine."
+  },
+  "hard-04-marketing-shortener.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "shortener, urgency, and anchor text that does not match the href, all from a genuine marketing platform. The hardest benign case in the set."
+  },
+  "hard-05-compromised-supplier.eml": {
+    "action_max": "escalate",
+    "action_min": "investigate",
+    "label": "malicious",
+    "note": "fully authenticated, allowlisted, established sender, and still malicious because the account is compromised. Authentication cannot detect this; only the payment-change request can. Correct outcome is investigate rather than quarantine: on the evidence available to the tool this is indistinguishable from a genuine bank-detail change, and the control that catches it is a human telephoning a number held on file, not an automated block."
+  },
+  "hard-06-internal-script-attachment.eml": {
+    "action_max": "investigate",
+    "action_min": "allow",
+    "label": "benign",
+    "note": "a directly executable attachment sent legitimately by a known internal colleague. Tests that extension category alone does not quarantine."
+  },
+  "phish-01-credential-harvest.eml": {
+    "action_max": "escalate",
+    "action_min": "quarantine",
+    "label": "malicious",
+    "note": "SPF fail, DMARC fail, subdomain spoof of the protected domain, credential request with a deadline"
+  },
+  "phish-02-homoglyph-domain.eml": {
+    "action_max": "escalate",
+    "action_min": "quarantine",
+    "label": "malicious",
+    "note": "authentication passes for the attacker's own homoglyph domain: the case that proves a DMARC pass is not evidence of legitimacy"
+  },
+  "phish-03-bidi-attachment.eml": {
+    "action_max": "escalate",
+    "action_min": "quarantine",
+    "label": "malicious",
+    "note": "bidirectional override in the filename, which has no innocent explanation"
+  },
+  "phish-04-macro-disguised-docx.eml": {
+    "action_max": "escalate",
+    "action_min": "quarantine",
+    "label": "malicious",
+    "note": "payment redirection, macro project inside a .docx, and a forged Authentication-Results header from an untrusted hop"
+  }
+}

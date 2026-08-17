@@ -1,0 +1,30 @@
+Subject: Invoice NG-4471 ready for approval
+From: "Northgate Finance" <finance@xn--nrthgate-nbh.co.uk>
+To: dana.okafor@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <phish-02-homoglyph-domain@synthetic.invalid>
+Authentication-Results: mx1.northgate.co.uk; spf=pass
+ smtp.mailfrom=xn--nrthgate-nbh.co.uk; dkim=pass
+ header.d=xn--nrthgate-nbh.co.uk; dmarc=pass
+ header.from=xn--nrthgate-nbh.co.uk
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2039078497081866729=="
+
+--===============2039078497081866729==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Invoice NG-4471 is ready for your approval.
+
+https://xn--nrthgate-nbh.co.uk/invoices/4471
+
+--===============2039078497081866729==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Invoice NG-4471 is ready.</p><p><a href=3D'https://xn--nrthgat=
+e-nbh.co.uk/invoices/4471'>northgate.co.uk/invoices</a></p></body></html>
+
+--===============2039078497081866729==--

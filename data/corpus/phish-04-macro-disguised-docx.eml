@@ -1,0 +1,39 @@
+Subject: Updated supplier bank details - please action today
+From: "Priya Nandra" <p.nandra@northgate-logistics.example>
+To: finance@northgate.co.uk
+Date: Tue, 16 Jan 2024 09:14:02 +0000
+Message-ID: <phish-04-macro-disguised-docx@synthetic.invalid>
+Reply-To: p.nandra@secure-mail.example
+Authentication-Results: mx1.northgate.co.uk; spf=fail
+ smtp.mailfrom=northgate-logistics.example; dkim=none; dmarc=fail
+ header.from=northgate-logistics.example
+Authentication-Results: mx.attacker.example; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4205660160494502971=="
+
+--===============4205660160494502971==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please find our new bank account details attached.
+Our previous account is closed, so kindly update the remittance details and p=
+rocess today. Do not share these details externally.
+
+--===============4205660160494502971==
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="new-bank-details.docx"
+MIME-Version: 1.0
+
+UEsDBBQAAAAIAL1kEV3HHBc8CgAAAAgAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbLMJqSxILda3
+AwBQSwMEFAAAAAgAvWQRXYLZHNUSAAAAEAAAAAsAAABfcmVscy8ucmVsc7MJSs1JLMnMzyvOyCwo
+1rcDAFBLAwQUAAAACAC9ZBFd/1d1hhkAAAAeAAAAEQAAAHdvcmQvZG9jdW1lbnQueG1ss0nJTy7N
+Tc0rsSuuzCvJSC3JTLbRh4sBAFBLAwQUAAAACAC9ZBFd0Tu5oC0AAAArAAAAEwAAAHdvcmQvdmJh
+UHJvamVjdC5iaW4LjvQL8XAN8XTWDfBxdHb18PdxcQ3S9fPX9XV0DvLXdfZ3cdUNCHINdvULAQBQ
+SwECFAMUAAAACAC9ZBFdxxwXPAoAAAAIAAAAEwAAAAAAAAAAAAAAgAEAAAAAW0NvbnRlbnRfVHlw
+ZXNdLnhtbFBLAQIUAxQAAAAIAL1kEV2C2RzVEgAAABAAAAALAAAAAAAAAAAAAACAATsAAABfcmVs
+cy8ucmVsc1BLAQIUAxQAAAAIAL1kEV3/V3WGGQAAAB4AAAARAAAAAAAAAAAAAACAAXYAAAB3b3Jk
+L2RvY3VtZW50LnhtbFBLAQIUAxQAAAAIAL1kEV3RO7mgLQAAACsAAAATAAAAAAAAAAAAAACAAb4A
+AAB3b3JkL3ZiYVByb2plY3QuYmluUEsFBgAAAAAEAAQA+gAAABwBAAAAAA==
+
+--===============4205660160494502971==--

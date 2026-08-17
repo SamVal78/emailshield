@@ -1,0 +1,16 @@
+# Real email must never be committed. The synthetic corpus is the only exception.
+*.eml
+!data/corpus/*.eml
+*.pcap
+*.pcapng
+*.mbox
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+out/
+.DS_Store
+.idea/
+.vscode/
