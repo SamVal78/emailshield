@@ -9,9 +9,9 @@ Authentication-Results: mx1.northgate.co.uk; spf=fail
  header.from=northgate-logistics.example
 Authentication-Results: mx.attacker.example; spf=pass; dkim=pass; dmarc=pass
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4984659192789253538=="
+Content-Type: multipart/mixed; boundary="===============8880675348829404082=="
 
---===============4984659192789253538==
+--===============8880675348829404082==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,21 +19,21 @@ Please find our new bank account details attached.
 Our previous account is closed, so kindly update the remittance details and p=
 rocess today. Do not share these details externally.
 
---===============4984659192789253538==
+--===============8880675348829404082==
 Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="new-bank-details.docx"
 MIME-Version: 1.0
 
-UEsDBBQAAAAIAHGEMl3HHBc8CgAAAAgAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbLMJqSxILda3
-AwBQSwMEFAAAAAgAcYQyXYLZHNUSAAAAEAAAAAsAAABfcmVscy8ucmVsc7MJSs1JLMnMzyvOyCwo
-1rcDAFBLAwQUAAAACABxhDJd/1d1hhkAAAAeAAAAEQAAAHdvcmQvZG9jdW1lbnQueG1ss0nJTy7N
-Tc0rsSuuzCvJSC3JTLbRh4sBAFBLAwQUAAAACABxhDJd0Tu5oC0AAAArAAAAEwAAAHdvcmQvdmJh
+UEsDBBQAAAAIAAqFMl3HHBc8CgAAAAgAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbLMJqSxILda3
+AwBQSwMEFAAAAAgACoUyXYLZHNUSAAAAEAAAAAsAAABfcmVscy8ucmVsc7MJSs1JLMnMzyvOyCwo
+1rcDAFBLAwQUAAAACAAKhTJd/1d1hhkAAAAeAAAAEQAAAHdvcmQvZG9jdW1lbnQueG1ss0nJTy7N
+Tc0rsSuuzCvJSC3JTLbRh4sBAFBLAwQUAAAACAAKhTJd0Tu5oC0AAAArAAAAEwAAAHdvcmQvdmJh
 UHJvamVjdC5iaW4LjvQL8XAN8XTWDfBxdHb18PdxcQ3S9fPX9XV0DvLXdfZ3cdUNCHINdvULAQBQ
-SwECFAMUAAAACABxhDJdxxwXPAoAAAAIAAAAEwAAAAAAAAAAAAAAgAEAAAAAW0NvbnRlbnRfVHlw
-ZXNdLnhtbFBLAQIUAxQAAAAIAHGEMl2C2RzVEgAAABAAAAALAAAAAAAAAAAAAACAATsAAABfcmVs
-cy8ucmVsc1BLAQIUAxQAAAAIAHGEMl3/V3WGGQAAAB4AAAARAAAAAAAAAAAAAACAAXYAAAB3b3Jk
-L2RvY3VtZW50LnhtbFBLAQIUAxQAAAAIAHGEMl3RO7mgLQAAACsAAAATAAAAAAAAAAAAAACAAb4A
+SwECFAMUAAAACAAKhTJdxxwXPAoAAAAIAAAAEwAAAAAAAAAAAAAAgAEAAAAAW0NvbnRlbnRfVHlw
+ZXNdLnhtbFBLAQIUAxQAAAAIAAqFMl2C2RzVEgAAABAAAAALAAAAAAAAAAAAAACAATsAAABfcmVs
+cy8ucmVsc1BLAQIUAxQAAAAIAAqFMl3/V3WGGQAAAB4AAAARAAAAAAAAAAAAAACAAXYAAAB3b3Jk
+L2RvY3VtZW50LnhtbFBLAQIUAxQAAAAIAAqFMl3RO7mgLQAAACsAAAATAAAAAAAAAAAAAACAAb4A
 AAB3b3JkL3ZiYVByb2plY3QuYmluUEsFBgAAAAAEAAQA+gAAABwBAAAAAA==
 
---===============4984659192789253538==--
+--===============8880675348829404082==--

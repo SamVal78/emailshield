@@ -7,15 +7,15 @@ Authentication-Results: mx1.northgate.co.uk; spf=softfail
  smtp.mailfrom=invoices-portal.example; dkim=none; dmarc=fail
  header.from=invoices-portal.example
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3227157200328262302=="
+Content-Type: multipart/mixed; boundary="===============2122831527987493214=="
 
---===============3227157200328262302==
+--===============2122831527987493214==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 Please find the remittance statement attached.
 
---===============3227157200328262302==
+--===============2122831527987493214==
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename*=utf-8''statement%E2%80%AEfdp.exe
@@ -23,4 +23,4 @@ MIME-Version: 1.0
 
 TVqQkJCQkJBTWU5USEVUSUMtUExBQ0VIT0xERVItTk9ULUEtUkVBTC1FWEVDVVRBQkxF
 
---===============3227157200328262302==--
+--===============2122831527987493214==--

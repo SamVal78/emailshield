@@ -8,16 +8,16 @@ Authentication-Results: mx1.northgate.co.uk; spf=pass
  smtp.mailfrom=calderfreight.example; dkim=pass
  header.d=calderfreight.example; dmarc=pass header.from=calderfreight.example
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============9155176739268554389=="
+Content-Type: multipart/mixed; boundary="===============8547662877983173859=="
 
---===============9155176739268554389==
+--===============8547662877983173859==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 Invoice 88214 is attached, payable on the usual 30 day terms.
 Bank details are unchanged.
 
---===============9155176739268554389==
+--===============8547662877983173859==
 Content-Type: application/pdf
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="invoice-88214.pdf"
@@ -25,4 +25,4 @@ MIME-Version: 1.0
 
 JVBERi0xLjQKJSBzeW50aGV0aWMgcGxhY2Vob2xkZXIsIG5vdCBhIHJlYWwgUERGCmludm9pY2U=
 
---===============9155176739268554389==--
+--===============8547662877983173859==--
