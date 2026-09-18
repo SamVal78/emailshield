@@ -9,9 +9,9 @@ Authentication-Results: mx1.northgate.co.uk; spf=pass
  header.from=xn--nrthgate-nbh.co.uk
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============2039078497081866729=="
+ boundary="===============0525416817121492724=="
 
---===============2039078497081866729==
+--===============0525416817121492724==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
@@ -19,7 +19,7 @@ Invoice NG-4471 is ready for your approval.
 
 https://xn--nrthgate-nbh.co.uk/invoices/4471
 
---===============2039078497081866729==
+--===============0525416817121492724==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 MIME-Version: 1.0
@@ -27,4 +27,4 @@ MIME-Version: 1.0
 <html><body><p>Invoice NG-4471 is ready.</p><p><a href=3D'https://xn--nrthgat=
 e-nbh.co.uk/invoices/4471'>northgate.co.uk/invoices</a></p></body></html>
 
---===============2039078497081866729==--
+--===============0525416817121492724==--

@@ -8,9 +8,9 @@ Authentication-Results: mx1.northgate.co.uk; spf=pass
  header.from=northgate.co.uk
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============0025242410514314331=="
+ boundary="===============6469258718379174639=="
 
---===============0025242410514314331==
+--===============6469258718379174639==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,7 +19,7 @@ You must re-register a device within 24 hours or your account will be suspend=
 ed.
 Re-enrol: https://identity.northgate.co.uk/enrol
 
---===============0025242410514314331==
+--===============6469258718379174639==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 MIME-Version: 1.0
@@ -28,4 +28,4 @@ MIME-Version: 1.0
  24 hours or your account will be suspended.</p><p><a href=3D'https://identit=
 y.northgate.co.uk/enrol'>Re-enrol your device</a></p></body></html>
 
---===============0025242410514314331==--
+--===============6469258718379174639==--
