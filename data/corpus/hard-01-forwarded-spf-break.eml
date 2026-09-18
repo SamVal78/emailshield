@@ -12,16 +12,17 @@ Received: from forum.example (203.0.113.44) by mx1.northgate.co.uk; Tue, 16
 Received: from mail.calderfreight.example (203.0.113.9) by forum.example; Tue,
  16 Jan 2024 09:11:41 +0000
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============2539132003789676143=="
+Content-Type: multipart/mixed;
+ boundary="===============emailshield-hard-01-forwarded-spf-break=="
 
---===============2539132003789676143==
+--===============emailshield-hard-01-forwarded-spf-break==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 Forwarding the contract amendment for your signature, as discussed.
 Please return it by Friday.
 
---===============2539132003789676143==
+--===============emailshield-hard-01-forwarded-spf-break==
 Content-Type: application/pdf
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="amendment-v3.pdf"
@@ -30,4 +31,4 @@ MIME-Version: 1.0
 JVBERi0xLjQKJSBzeW50aGV0aWMgcGxhY2Vob2xkZXIsIG5vdCBhIHJlYWwgUERGCmFtZW5kbWVu
 dA==
 
---===============2539132003789676143==--
+--===============emailshield-hard-01-forwarded-spf-break==--

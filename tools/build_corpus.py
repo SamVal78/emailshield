@@ -121,6 +121,7 @@ def build(
             payload, maintype=maintype, subtype=subtype, filename=name
         )
 
+        msg.set_boundary(f"===============emailshield-{filename.removesuffix('.eml')}==")
     (CORPUS / filename).write_bytes(msg.as_bytes())
 
 

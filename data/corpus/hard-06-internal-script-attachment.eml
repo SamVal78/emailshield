@@ -7,15 +7,16 @@ Authentication-Results: mx1.northgate.co.uk; spf=pass
  smtp.mailfrom=northgate.co.uk; dkim=pass header.d=northgate.co.uk; dmarc=pass
  header.from=northgate.co.uk
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3717109798518587463=="
+Content-Type: multipart/mixed;
+ boundary="===============emailshield-hard-06-internal-script-attachment=="
 
---===============3717109798518587463==
+--===============emailshield-hard-06-internal-script-attachment==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 Here's the rollout script we discussed. Run it on the test terminal first.
 
---===============3717109798518587463==
+--===============emailshield-hard-06-internal-script-attachment==
 Content-Type: text/plain
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="deploy-terminals.ps1"
@@ -24,4 +25,4 @@ MIME-Version: 1.0
 IyBzeW50aGV0aWMgcGxhY2Vob2xkZXIsIG5vIGNvbW1hbmRzCldyaXRlLU91dHB1dCAncGxhY2Vo
 b2xkZXInCg==
 
---===============3717109798518587463==--
+--===============emailshield-hard-06-internal-script-attachment==--

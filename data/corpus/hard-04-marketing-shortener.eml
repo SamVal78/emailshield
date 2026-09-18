@@ -11,16 +11,16 @@ Authentication-Results: mx1.northgate.co.uk; spf=pass
  header.from=meridianevents.example
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============1995484523717457386=="
+ boundary="===============6886180245767037159=="
 
---===============1995484523717457386==
+--===============6886180245767037159==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 Final reminder: our webinar starts tomorrow at 14:00. Register immediately to=
  secure a place: https://bit.ly/mrdn-web
 
---===============1995484523717457386==
+--===============6886180245767037159==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 MIME-Version: 1.0
@@ -28,4 +28,4 @@ MIME-Version: 1.0
 <html><body><p>Final reminder, register immediately.</p><p><a href=3D'https:/=
 /bit.ly/mrdn-web'>meridianevents.example/register</a></p></body></html>
 
---===============1995484523717457386==--
+--===============6886180245767037159==--

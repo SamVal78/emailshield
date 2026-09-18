@@ -9,16 +9,17 @@ Authentication-Results: mx1.northgate.co.uk; spf=pass
  header.d=harrowgatepallets.example; dmarc=pass
  header.from=harrowgatepallets.example
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3799661806023652981=="
+Content-Type: multipart/mixed;
+ boundary="===============emailshield-hard-03-first-contact-invoice=="
 
---===============3799661806023652981==
+--===============emailshield-hard-03-first-contact-invoice==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
 Please find our first invoice attached, 0041, payment outstanding on receipt.=
  Our bank details are on the invoice.
 
---===============3799661806023652981==
+--===============emailshield-hard-03-first-contact-invoice==
 Content-Type: application/pdf
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="invoice-0041.pdf"
@@ -26,4 +27,4 @@ MIME-Version: 1.0
 
 JVBERi0xLjQKJSBzeW50aGV0aWMgcGxhY2Vob2xkZXIsIG5vdCBhIHJlYWwgUERGCjAwNDE=
 
---===============3799661806023652981==--
+--===============emailshield-hard-03-first-contact-invoice==--

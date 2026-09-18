@@ -9,9 +9,10 @@ Authentication-Results: mx1.northgate.co.uk; spf=fail
  header.from=northgate-logistics.example
 Authentication-Results: mx.attacker.example; spf=pass; dkim=pass; dmarc=pass
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============8880675348829404082=="
+Content-Type: multipart/mixed;
+ boundary="===============emailshield-phish-04-macro-disguised-docx=="
 
---===============8880675348829404082==
+--===============emailshield-phish-04-macro-disguised-docx==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 
@@ -19,21 +20,21 @@ Please find our new bank account details attached.
 Our previous account is closed, so kindly update the remittance details and p=
 rocess today. Do not share these details externally.
 
---===============8880675348829404082==
+--===============emailshield-phish-04-macro-disguised-docx==
 Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="new-bank-details.docx"
 MIME-Version: 1.0
 
-UEsDBBQAAAAIAAqFMl3HHBc8CgAAAAgAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbLMJqSxILda3
-AwBQSwMEFAAAAAgACoUyXYLZHNUSAAAAEAAAAAsAAABfcmVscy8ucmVsc7MJSs1JLMnMzyvOyCwo
-1rcDAFBLAwQUAAAACAAKhTJd/1d1hhkAAAAeAAAAEQAAAHdvcmQvZG9jdW1lbnQueG1ss0nJTy7N
-Tc0rsSuuzCvJSC3JTLbRh4sBAFBLAwQUAAAACAAKhTJd0Tu5oC0AAAArAAAAEwAAAHdvcmQvdmJh
+UEsDBBQAAAAIAJCGMl3HHBc8CgAAAAgAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbLMJqSxILda3
+AwBQSwMEFAAAAAgAkIYyXYLZHNUSAAAAEAAAAAsAAABfcmVscy8ucmVsc7MJSs1JLMnMzyvOyCwo
+1rcDAFBLAwQUAAAACACQhjJd/1d1hhkAAAAeAAAAEQAAAHdvcmQvZG9jdW1lbnQueG1ss0nJTy7N
+Tc0rsSuuzCvJSC3JTLbRh4sBAFBLAwQUAAAACACQhjJd0Tu5oC0AAAArAAAAEwAAAHdvcmQvdmJh
 UHJvamVjdC5iaW4LjvQL8XAN8XTWDfBxdHb18PdxcQ3S9fPX9XV0DvLXdfZ3cdUNCHINdvULAQBQ
-SwECFAMUAAAACAAKhTJdxxwXPAoAAAAIAAAAEwAAAAAAAAAAAAAAgAEAAAAAW0NvbnRlbnRfVHlw
-ZXNdLnhtbFBLAQIUAxQAAAAIAAqFMl2C2RzVEgAAABAAAAALAAAAAAAAAAAAAACAATsAAABfcmVs
-cy8ucmVsc1BLAQIUAxQAAAAIAAqFMl3/V3WGGQAAAB4AAAARAAAAAAAAAAAAAACAAXYAAAB3b3Jk
-L2RvY3VtZW50LnhtbFBLAQIUAxQAAAAIAAqFMl3RO7mgLQAAACsAAAATAAAAAAAAAAAAAACAAb4A
+SwECFAMUAAAACACQhjJdxxwXPAoAAAAIAAAAEwAAAAAAAAAAAAAAgAEAAAAAW0NvbnRlbnRfVHlw
+ZXNdLnhtbFBLAQIUAxQAAAAIAJCGMl2C2RzVEgAAABAAAAALAAAAAAAAAAAAAACAATsAAABfcmVs
+cy8ucmVsc1BLAQIUAxQAAAAIAJCGMl3/V3WGGQAAAB4AAAARAAAAAAAAAAAAAACAAXYAAAB3b3Jk
+L2RvY3VtZW50LnhtbFBLAQIUAxQAAAAIAJCGMl3RO7mgLQAAACsAAAATAAAAAAAAAAAAAACAAb4A
 AAB3b3JkL3ZiYVByb2plY3QuYmluUEsFBgAAAAAEAAQA+gAAABwBAAAAAA==
 
---===============8880675348829404082==--
+--===============emailshield-phish-04-macro-disguised-docx==--
